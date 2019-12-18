@@ -1,0 +1,9 @@
+port: 8888
+paths:
+  - path: /a/b/c
+    methods: post,get
+    response:
+      status: 200
+      bodyfile: json/test.json
+      headers:
+        ContentType: application/json
